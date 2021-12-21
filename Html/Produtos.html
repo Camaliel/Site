@@ -5,55 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="menu.css">
-    <title>Produtos</title>
+    
+    <link rel="stylesheet" href="produto.css">
+
+    <title>Colecionaveis</title>
 </head>
 <body>
     <center><img class="head1" src="head.png" alt=""></center>
+
+</div>
+
+
+
+<!--- MENU-->
+  
+<nav id="menu-h">
     <div>
-    
+        <ul id="menu-h">         
+            <!--<div id="serv"><li><a href="servicos.html"><img src="000.png"/>Serviços</a></li></div>-->
+           
+            <li><a href="Colecionaveis.html">Retro</a></li>
+            <li><a href="produtos.html">Galeria</a></li> 
+            <li><a href="https://www.toyshow.com.br/vitrine/pop-funko/pocket-pop-keychains-chaveiro-kevin-malone-the-office-funko">Produtos</a></li> 
+            <li><a href="cadastro.html">Entrar</a></li> 
+            
+               
+                </ul>
+</nav>
 
-        <nav id="menu-h">
-            <div>
-                <ul id="menu-h">         
-                    <li><a href="HOME.html">Home</a></li>
-                    <li><a href="Colecionaveis.html">Colecionaveis</a></li> 
-                    <li><a href="Entrar.html">Entrar</a></li> 
-                        </ul>
-        </nav>
 
+
+
+<body>
+
+<div class="modal">
+    <div class="modal_content">
+        <img src="imagens/01.jpg" id="modal_img">
+    </div>
+    <span id="bt_close">&times;</span>
 </div>
 
-<div>
 
-    <title>Banner rotativo</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <script language="JavaScript">
-    var ultimo=-1, dBanner;
-    function carrega(x) {dBanner=x;Banners()}
-    function Banners()
-    {
-    var MNews = new Array(); 
-    MNews[0]= '<A HREF="banner1.png" target="_blank"><IMG SRC="banner1.png" WIDTH="1000" HEIGHT="150" BORDER="0" ALT=""></a>';
-    
-    MNews[1]= '<A HREF="banner2.jfif" target="_blank"><IMG SRC="banner2.jfif" WIDTH="1000" HEIGHT="150" BORDER="0" ALT=""></a>'
-                    
-    while((Numero = parseInt(Math.random()*MNews.length))==ultimo);
-    dBanner.innerHTML=MNews[Numero];
-    
-    setTimeout("Banners()",10000);
-    }
-    </script></head>
-    <body bgcolor="#FFFFFF" topmargin=0 leftmargin=150 text="#000000" onLoad=carrega(this.divBanner)>
-    <table width="120" border="0" cellspacing="0" cellpadding="0" height="60" bordercolor="#000000">
-    <tr>
-    <td>
-    <div align="left" id=divBanner></div>
-    </td>
-    </tr>
-    </table>
-</div>
-<center><h1>GAME MANIA</h1></center>
+    <div class="container">
+        <div class="row">
+            <div class="card_img">
+                <img src="Steam_Deck_frente_2.png" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="ps5.jpg" class="small_img">
+            </div>
+            <div class="card_img">
+                <img src="nintendo-switch-2.jpg" class="small_img">
+            </div>
+        </div>
+        <div class="row">
+                <div class="card_img">
+                    <img src="ps3.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="dvd3.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="wii.jpg" class="small_img">
+                </div>
+            </div>
+    </div>
 
+    <script src="galeria.js"></script>
 </body>
+
 </html>

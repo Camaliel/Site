@@ -35,7 +35,6 @@
 }
 body{
 
-    background-image: url(fundo.jpeg);
     background:-moz-repeating-linear-gradient();    
 }
 
@@ -43,7 +42,7 @@ body{
 #tres {
     width: 76.7%;
     height: 1000px;
-    background-color: rgba(255, 250, 240, 0.555);
+    background-color: rgba(8, 8, 8, 0.089);
     margin: 10px;
     margin-left: 12%;
     padding-top: 10px;
@@ -101,3 +100,4 @@ body{
     display: inline;
 
 }
+
