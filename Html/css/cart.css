@@ -1,0 +1,20 @@
+.container {
+    font-size: 25px;
+    margin: 25px auto;
+    display: flex;
+    background-color: #2C4169;
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.voltar {
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.mensagem {
+    margin: 0 auto;
+}
